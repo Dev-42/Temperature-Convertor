@@ -1,0 +1,47 @@
+/* This is a Css File
+*/
+
+*{
+	font-family: 'Encode Sans SC', sans-serif;;
+}
+
+#head{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 4px;
+	margin: 20px;
+	word-spacing: 2px;
+}
+
+#container{
+	text-align: center;
+	background: linear-gradient(#EC7063,#F5B041,#2ECC71);
+	padding: 50px;
+	border-radius: 4px;
+	margin-top: 60px;
+	height: 230px;
+}
+
+.input-div{
+	display: inline-block;
+}
+
+.inp{
+	padding: 20px;
+	border-radius: 4px;
+	margin: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lab{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.inp:hover{
+	background-color:#D5DBDB;
+	transition: 0.5s;
+}
